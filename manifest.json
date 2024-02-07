@@ -1,0 +1,26 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "OriginalChatDisabler",
+    "description": "チャットのbroadcastを無効化して非表示にします",
+    "uuid": "07f2dd1a-b803-4c54-b1b2-9453ed56d538",
+    "version": [0, 1, 0],
+    "min_engine_version": [ 1, 20, 60 ]
+  },
+  "modules": [
+    {
+      "description": "",
+      "type": "script",
+      "language": "javascript",
+      "uuid": "d4419838-e507-4b1a-9e4a-f3038197c421",
+      "version": [0, 1, 0],
+      "entry": "scripts/index.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "mojang-minecraft",
+      "version": "0.1.0"
+    }
+  ]
+}

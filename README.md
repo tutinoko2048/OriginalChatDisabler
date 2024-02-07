@@ -1,0 +1,2 @@
+# OriginalChatDisabler
+チャットのbroadcastを無効化して非表示にします
